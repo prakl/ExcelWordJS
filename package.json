@@ -1,0 +1,52 @@
+{
+  "name": "debt-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node index.js",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-VLADIMIRGREZIN:vladimirgrezin/debt-parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/cache": "^11.4.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/material": "^5.0.0",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "docx": "^6.0.3",
+    "docxtemplater": "^3.25.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "lodash": "^4.17.21",
+    "lowdb": "github:dankreiger/lowdb#chore/esm-cjs-hybrid-WITH-LIB",
+    "next": "^11.1.2",
+    "node-xlsx": "^0.17.1",
+    "pizzip": "^3.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-next": "11.1.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
